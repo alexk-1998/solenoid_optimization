@@ -21,8 +21,8 @@ to
 ```groove(drawing, group, former_radius, inner_radius, wire_radius, style='chamfer')```
 
 <p align="center">
-  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/normal_example.png" title="Default Groove" width="100"/>
-  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/chamfer_example.png" title="Chamfered Groove" width="100"/> 
+  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/normal_example.png" title="Default Groove With 6 Wires" width="100"/>
+  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/chamfer_example.png" title="Chamfered Groove With 6 Wires" width="100"/> 
 </p>
 
 Full groove drawings, such as those in `results-example/grooves.svg` or `results-example/wires_and_grooves.svg` can be used to cut grooves in a 3d modeled coil former, with an example 3d model shown below
