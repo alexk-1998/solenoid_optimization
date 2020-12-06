@@ -20,10 +20,7 @@ to
 
 ```groove(drawing, group, former_radius, inner_radius, wire_radius, style='chamfer')``` chamfered groove shape
 
-<p float="left">
-  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/normal_example.png" width="100" />
-  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/chamfer_example.png" width="100" /> 
-</p>
+
 
 # Notes:
 The user has control over several parameters relevant to the design of the coil. These can all be accessed in the file `my_constants.py`.
