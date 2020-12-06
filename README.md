@@ -14,13 +14,16 @@ Successful termination of the program will produce a results folder, uniquely de
 The output SVG file is intended for importation into 3d modeling software, such as AutoCAD Fusion 360. Imported drawings can be easily used to create wire grooves in a 3d model. Two groove styles (`normal` or `chamfer`) are available for the design and are shown below. The `chamfer` style simply adds a 60 degree chamfer to the upperedge of the groove to avoid issues with sagging during 3d printing. The Style used when drawing the grooves defaults to `normal` but can be changed in the file `draw_grooves.py` by changing the string argument of the function call 
 
 
-```groove(drawing, group, former_radius, inner_radius, wire_radius)``` default groove shape
+```groove(drawing, group, former_radius, inner_radius, wire_radius)```
 
 to
 
-```groove(drawing, group, former_radius, inner_radius, wire_radius, style='chamfer')``` chamfered groove shape
+```groove(drawing, group, former_radius, inner_radius, wire_radius, style='chamfer')```
 
-
+<p align="center">
+  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/normal_example.png" title="Default Groove" width="100" style="margin: 1px 1px 1px 20px;" />
+  <img src="https://github.com/alexk-1998/solenoid_optimization/blob/master/results_example/chamfer_example.png" title="Chamfered Groove" width="100" style="margin: 20px 1px 1px 1px;" /> 
+</p>
 
 # Notes:
 The user has control over several parameters relevant to the design of the coil. These can all be accessed in the file `my_constants.py`.
