@@ -107,8 +107,8 @@ def main():
                     area = area1
                     break
 
-            # seperates adjacent wires exactly by minimum seperation distance
-            locs1[0, i, 0] += locs1[0, i-1, 0] + d_min
+            # separates adjacent wires exactly by minimum seperation distance
+            locs1[0, i, 0] = locs1[0, i-1, 0] + d_min
             locs1[0, -1-i, 0] = -locs1[0, i, 0]
             
             # checks for coil validity and if true calculates the field homogeneity
@@ -141,7 +141,7 @@ def main():
                     area = area2
                     break
 
-            # seperates adjacent wires exactly by minimum seperation distance
+            # separates adjacent wires exactly by minimum seperation distance
             locs2[0, i, 0] = locs2[0, i+1, 0] - d_min
             locs2[0, -1-i, 0] = -locs2[0, i, 0]
             
